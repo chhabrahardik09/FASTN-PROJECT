@@ -9,6 +9,7 @@
 
 
 -- ftd.column:
+color: $inherited.colors.text
 width: fill-container
 height: fill-container
 
@@ -163,7 +164,7 @@ src: $assets.files.images.mee.png
 height.fixed.px: 200 
 width.fixed.px: 200 
 margin-top.px: 42
-border-color: black
+border-color: $inherited.colors.border-strong
 border-radius.px: 15
 border-width.px: 5
 
