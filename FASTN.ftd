@@ -3,10 +3,8 @@
 -- fastn.package: chhabrahardik09.github.io/fastn-project
 ;; favicon: /-/chhabrahardik09.github.io/fastn-project/favicon.ico
 
-
 -- fastn.dependency: fastn-community.github.io/doc-site as ds
 -- fastn.dependency: fastn-community.github.io/footer
--- fastn.dependency: chhabrahardik09.github.io/fastn-project/assets
 
 -- fastn.auto-import: ds
 -- fastn.auto-import: chhabrahardik09.github.io/fastn-project/FASTN/my-ds
