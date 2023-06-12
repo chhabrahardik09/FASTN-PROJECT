@@ -43,12 +43,12 @@ margin-left.px: 525
 -- ftd.row:
 spacing.fixed.px: 50
 
--- ftd.text: Home
+-- ftd.text: **Home**
 link: http://127.0.0.1:8000/
 color: $inherited.colors.text
 
 
--- ftd.text: About
+-- ftd.text: **About**
 link: http://127.0.0.1:8000/
 color: $inherited.colors.text
 
@@ -159,6 +159,7 @@ spacing: space-between
 width: fill-container
 
 
+
 -- ftd.image:
 src: $assets.files.images.mee.png
 height.fixed.px: 200 
@@ -173,8 +174,6 @@ role: $inherited.types.copy-regular
 padding.px: 35
 margin-bottom.px: 215
 
-
-
 I have an analytical mindset
 and I am passionate about
 learning new skills, such as
@@ -188,6 +187,22 @@ grow my project
 management, business
 development and marketing
 skills.
+
+
+-- end: ftd.row
+
+-- ftd.row:
+padding.px: 10
+spacing: space-between
+width: fill-container
+
+
+
+-- ftd.text:
+role: $inherited.types.copy-regular
+padding.px: 35
+margin-bottom.px: 215
+
 
 **PROJECTS**
 
@@ -333,8 +348,9 @@ hover-shadow: $skills.s
 
 -- ftd.row:
 width: fill-container
+height: fill-container
 background.solid: $inherited.colors.background.step-2
-padding.px: 20
+padding.px: 40
 
 -- ftd.text: Do check my github profile [Click here](https://github.com/chhabrahardik09)
 role: $inherited.types.copy-regular
