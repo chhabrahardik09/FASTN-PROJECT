@@ -154,7 +154,7 @@ border-bottom-width.px: 2
 border-color: $inherited.colors.border
 
 -- ftd.row:
-padding.px: 10
+padding.px: 20
 spacing: space-between
 width: fill-container
 
@@ -168,6 +168,7 @@ margin-top.px: 42
 border-color: $inherited.colors.border-strong
 border-radius.px: 15
 border-width.px: 5
+
 
 -- ftd.text: 
 role: $inherited.types.copy-regular
@@ -202,7 +203,6 @@ width: fill-container
 role: $inherited.types.copy-regular
 padding.px: 35
 margin-bottom.px: 215
-
 
 **PROJECTS**
 
@@ -356,8 +356,27 @@ padding.px: 40
 role: $inherited.types.copy-regular
 color: $inherited.colors.text
 
+;; -- ftd.text: Click here to print name in alert!
+;; $on-click$: $call-js-fn(a = FifthTry Alert)
+
+;; -- void call-js-fn(a):
+;; js: functions.ftd 
+
+;; show_alert(a) 
+
 -- end: ftd.row
 
 
 -- end: footer
 
+
+;; -- void show_alert(a):
+
+;; alert(a);
+
+
+
+
+
+
+ 
